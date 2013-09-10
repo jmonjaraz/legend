@@ -1,0 +1,22 @@
+// Homework assignment 2.14
+
+public class Adjacent {
+
+	public static void main(String[] args) {
+		System.out.println(" 1 2 3 4"); //adjacent numbers separated by one space
+		
+		System.out.print("1 "); // using 4 System.out.print statements
+		
+		System.out.print("2 ");
+		
+		System.out.print("3 ");
+		
+		System.out.print("4 \n");
+		
+		System.out.printf( "%s %s %s %s", // using System.out.printf statements
+			
+				"1", "2", "3", "4" );
+
+	}
+
+}
