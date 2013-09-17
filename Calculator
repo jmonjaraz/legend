@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Calculator {
+	public static void main(String args[]){
+		Scanner Number = new Scanner (System.in);
+		
+		double number1, number2, answer ;
+		
+		
+		System.out.println("Enter number1:");
+		number1 = Number.nextDouble();
+		
+		System.out.println("Enter number2:");
+		number2 = Number.nextDouble();
+		
+		answer = number1 + number2;
+		
+		
+		System.out.println(answer);
+		
+		
+		
+	}
+
+}
