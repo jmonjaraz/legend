@@ -1,0 +1,43 @@
+// Class assigment 3
+
+  import java.util.Scanner;
+
+  
+
+ 	public class Work{
+
+ 	public static void main(String args[]){
+
+ 	 Scanner input = new Scanner(System.in);
+
+ 
+
+ 	 int number;
+
+ 	 System.out.println("Enter number:");
+
+ 	 number = input.nextInt();
+
+ 
+
+ 	 if ( number >10){
+
+ 	 System.out.println("Number is greater than 10");}
+
+ 
+
+ 	 if ( number <5){
+
+ 	 System.out.println("Number is less than 5");
+
+ 	 }
+
+ 	 else{
+
+ 	 System.out.println("This number is neither greater than 10 or less than 5");
+
+ 	 }
+
+ 	 }
+
+ 	
