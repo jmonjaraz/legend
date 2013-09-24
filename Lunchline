@@ -1,0 +1,38 @@
+public class Lunchline
+{
+   public static void main(String[] args)
+   {
+      String thirsty, breakfast;
+      Scanner in = new Scanner(System.in);
+
+      System.out.println("If you are hungry please get in line Javier.");
+      System.out.println("Once in line pick out your lunch.");
+      System.out.println("Are you thirsty (yes/no)? ");
+      thirsty = in.nextLine();
+
+      if (thirsty.equals("yes"))
+      {
+         System.out.println("Did you have breakfast (yes/no)?: ");
+         breakfast = in.nextLine();
+
+            if(breakfast.equals("yes"))
+            {
+               System.out.println("You get a diet coke.");
+            }
+            else
+            {
+               System.out.println("Go ahead and get a coke.");
+            }
+         System.out.println("Eat your lunch.");
+         System.out.print("Please return your tray when you're done eating\n");
+         System.out.println("and you may excuse yourself out of the cafeteria.");
+         
+      }
+      else if(thirsty.equals("no"))
+      {
+         System.out.println("Please pick up a water.");
+         System.out.print("Plase return your tray when you're dont eating\n");
+         System.out.println("and you may excuse yourself out of the caferia.");
+      }
+   }
+}
